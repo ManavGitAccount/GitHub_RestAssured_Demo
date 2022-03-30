@@ -21,12 +21,7 @@ public class Utility {
 
     protected ResponseSpecification respSpec;
     protected Response responseObj;
-
-    protected APIResources resourceAPI;
-
-    public static String reqSpecString;
-
-    public static String location;
+    
     JsonPath js;
 
     public RequestSpecification requestSpecification() throws IOException {
