@@ -1,0 +1,357 @@
+Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=token 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Caro Can Chess Repo",
+    "pathName": null
+}
+HTTP/1.1 201 Created
+Server: GitHub.com
+Date: Wed, 30 Mar 2022 01:34:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5898
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "1a71d6be109cd9f0b743bad262b344b69e26038509175799924ec94966d75bb7"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: public_repo, repo
+github-authentication-token-expiration: 2022-04-28 15:40:53 UTC
+Location: https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4971
+X-RateLimit-Reset: 1648604952
+X-RateLimit-Used: 29
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: DEBF:3472:F3DF49:2A00111:6243B3B5
+
+{
+    "id": 475677782,
+    "node_id": "R_kgDOHFpEVg",
+    "name": "Caro-Can-Chess-Repo",
+    "full_name": "ManavGitAccount/Caro-Can-Chess-Repo",
+    "private": false,
+    "owner": {
+        "login": "ManavGitAccount",
+        "id": 93014817,
+        "node_id": "U_kgDOBYtLIQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/93014817?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ManavGitAccount",
+        "html_url": "https://github.com/ManavGitAccount",
+        "followers_url": "https://api.github.com/users/ManavGitAccount/followers",
+        "following_url": "https://api.github.com/users/ManavGitAccount/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ManavGitAccount/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ManavGitAccount/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ManavGitAccount/subscriptions",
+        "organizations_url": "https://api.github.com/users/ManavGitAccount/orgs",
+        "repos_url": "https://api.github.com/users/ManavGitAccount/repos",
+        "events_url": "https://api.github.com/users/ManavGitAccount/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ManavGitAccount/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/ManavGitAccount/Caro-Can-Chess-Repo",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo",
+    "forks_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/forks",
+    "keys_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/teams",
+    "hooks_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/hooks",
+    "issue_events_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/events",
+    "assignees_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/tags",
+    "blobs_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/languages",
+    "stargazers_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/stargazers",
+    "contributors_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/contributors",
+    "subscribers_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/subscribers",
+    "subscription_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/subscription",
+    "commits_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/merges",
+    "archive_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/downloads",
+    "issues_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/labels{/name}",
+    "releases_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo/deployments",
+    "created_at": "2022-03-30T01:34:45Z",
+    "updated_at": "2022-03-30T01:34:45Z",
+    "pushed_at": "2022-03-30T01:34:46Z",
+    "git_url": "git://github.com/ManavGitAccount/Caro-Can-Chess-Repo.git",
+    "ssh_url": "git@github.com:ManavGitAccount/Caro-Can-Chess-Repo.git",
+    "clone_url": "https://github.com/ManavGitAccount/Caro-Can-Chess-Repo.git",
+    "svn_url": "https://github.com/ManavGitAccount/Caro-Can-Chess-Repo",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "network_count": 0,
+    "subscribers_count": 0
+}
+Request method:	PATCH
+Request URI:	https://api.github.com/repos/ManavGitAccount/Caro-Can-Chess-Repo
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=token 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Caroooo",
+    "pathName": null
+}
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Wed, 30 Mar 2022 01:34:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"30c9230fdf876295254262c481e894c74b6eba9bd0375fdead4caa8babcdba6c"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: 
+github-authentication-token-expiration: 2022-04-28 15:40:53 UTC
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4970
+X-RateLimit-Reset: 1648604952
+X-RateLimit-Used: 30
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: DEC1:215D:23CADFA:75258C8:6243B3B7
+
+{
+    "id": 475677782,
+    "node_id": "R_kgDOHFpEVg",
+    "name": "Caroooo",
+    "full_name": "ManavGitAccount/Caroooo",
+    "private": false,
+    "owner": {
+        "login": "ManavGitAccount",
+        "id": 93014817,
+        "node_id": "U_kgDOBYtLIQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/93014817?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ManavGitAccount",
+        "html_url": "https://github.com/ManavGitAccount",
+        "followers_url": "https://api.github.com/users/ManavGitAccount/followers",
+        "following_url": "https://api.github.com/users/ManavGitAccount/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ManavGitAccount/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ManavGitAccount/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ManavGitAccount/subscriptions",
+        "organizations_url": "https://api.github.com/users/ManavGitAccount/orgs",
+        "repos_url": "https://api.github.com/users/ManavGitAccount/repos",
+        "events_url": "https://api.github.com/users/ManavGitAccount/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ManavGitAccount/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/ManavGitAccount/Caroooo",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/ManavGitAccount/Caroooo",
+    "forks_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/forks",
+    "keys_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/teams",
+    "hooks_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/hooks",
+    "issue_events_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/events",
+    "assignees_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/tags",
+    "blobs_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/languages",
+    "stargazers_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/stargazers",
+    "contributors_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/contributors",
+    "subscribers_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/subscribers",
+    "subscription_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/subscription",
+    "commits_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/merges",
+    "archive_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/downloads",
+    "issues_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/labels{/name}",
+    "releases_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/ManavGitAccount/Caroooo/deployments",
+    "created_at": "2022-03-30T01:34:45Z",
+    "updated_at": "2022-03-30T01:34:47Z",
+    "pushed_at": "2022-03-30T01:34:46Z",
+    "git_url": "git://github.com/ManavGitAccount/Caroooo.git",
+    "ssh_url": "git@github.com:ManavGitAccount/Caroooo.git",
+    "clone_url": "https://github.com/ManavGitAccount/Caroooo.git",
+    "svn_url": "https://github.com/ManavGitAccount/Caroooo",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "network_count": 0,
+    "subscribers_count": 1
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/ManavGitAccount/Caroooo
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=token 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Server: GitHub.com
+Date: Wed, 30 Mar 2022 01:34:48 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: delete_repo
+github-authentication-token-expiration: 2022-04-28 15:40:53 UTC
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4969
+X-RateLimit-Reset: 1648604952
+X-RateLimit-Used: 31
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: DEC2:1F64:3889719:689529F:6243B3B7
